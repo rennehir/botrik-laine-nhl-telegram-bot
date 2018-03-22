@@ -1,0 +1,21 @@
+{
+  "name": "telegram-demo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cron": "^1.3.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.13.3",
+    "moment": "^2.21.0",
+    "node-telegram-bot-api": "^0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
