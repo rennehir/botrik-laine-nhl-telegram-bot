@@ -7,7 +7,10 @@ const CronJob = require('cron').CronJob;
 const axios = require('axios');
 const moment = require('moment');
 const Bot = require('node-telegram-bot-api');
-const bot = new Bot(token, { polling: true });
+const bot = new Bot(token, {
+  username: process.env.BOT_USERNAME,
+  polling: true 
+});
 
 console.log('bot server started...');
 
