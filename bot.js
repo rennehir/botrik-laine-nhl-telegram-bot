@@ -21,7 +21,7 @@ bot.onText(/^\/start/, function (message) {
     /**
      * Create a cron job.
      */
-    job = new CronJob('* * * * *', () => {
+    job = new CronJob('15 8 * * *', () => {
       /**
        * Runs every day of the year at 8:10.
        */
