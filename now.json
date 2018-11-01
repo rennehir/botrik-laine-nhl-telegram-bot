@@ -1,0 +1,5 @@
+{
+    "name": "botrik-laine-nhl-telegram-bot",
+    "alias": "botrik-laine-nhl-telegram-bot",
+    "dotenv": ".env.production"
+}
