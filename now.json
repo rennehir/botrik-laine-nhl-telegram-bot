@@ -1,5 +1,11 @@
 {
-    "name": "botrik-laine-nhl-telegram-bot",
-    "alias": "botrik-laine-nhl-telegram-bot",
-    "dotenv": ".env.production"
+  "version": 2,
+  "name": "botrik-laine-nhl-telegram-bot",
+  "alias": "botrik-laine-nhl-telegram-bot",
+  "build": {
+    "env": {
+      "BOT_TOKEN": "@bot_token",
+      "BOT_USERNAME": "@bot_username"
+    }
+  }
 }
